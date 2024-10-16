@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fillpoly</title>
+</head>
+
+<body>
+    <header>
+        <h1>FILLPOLY</h1>
+    </header>
+
+    <main>
+        <!-- Janela da API Canvas para o desenho -->
+        <canvas id="window-div" width="800" height="500" style="background-color: #000000;"></canvas>
+
+        <!-- Botão para o tema da janela -->
+        <div id="div-change-window-color">
+            <button id="button-change-window-color">Change to White</button>
+        </div>
+
+        <!-- Janela de funcionalidades -->
+        <div id="options-div">
+            <!-- Botões das funcionalidades -->
+            <div id="options-buttons-div">
+                <button type="button" id="button-novo-poligono">Novo Polígono</button>
+                <button type="button" id="button-salvar-poligono">Salvar Polígono</button>
+                <button type="button" id="button-fillpoly">FillPoly</button>
+                <button type="button" id="button-limpar-tela">Limpar Tela</button>
+                <button type="button" id="button-excluir-poligono">Excluir Polígono</button>
+            </div>
+
+            <span id="options-span-div"></span>
+
+            <!-- Inputs para as cores das arestas e polígonos -->
+            <div id="options-color-palette-div">
+                <label for="aresta-color-picker">Cor da Aresta</label>
+                <input type="color" name="aresta-color-picker" id="aresta-color-picker" value="#FFFF00">
+
+                <label for="poligono-color-picker">Cor do Polígono</label>
+                <input type="color" name="poligono-color-picker" id="poligono-color-picker">
+            </div>
+
+            <span id="options-span-div"></span>
+
+            <!-- Lista de polígonos desenhados -->
+            <div id="options-poligonos-salvos-div">
+                <label for="poligonos">Polígonos Salvos</label>
+                <select name="poligonos" id="poligonos"></select>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;Luiz Eduardo Garzon | 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

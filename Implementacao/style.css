@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: monospace, 'Segoe UI', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100vw;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+/* Botão tema da janela */
+#div-change-window-color {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#button-change-window-color {
+    width: 180px;
+    height: 40px;
+    
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Janela Canvas */
+#window-div {
+    border: 3px solid black;
+    margin-left: 2em;
+}
+
+/* Janela de Funcionalidades */
+#options-div {
+    width: 300px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-right: 2em;
+    border: 3px solid black;
+}
+
+/* Botões das Funcionalides */
+#options-buttons-div {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#options-buttons-div button {
+    width: 180px;
+    height: 40px;
+    margin: 0.5em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Span para divisões da janela de funcionalidades */
+#options-span-div {
+    border: 2px solid black;
+    width: 100%;
+}
+
+/* Paletas de Cores */
+#options-color-palette-div {
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 0.9em;
+    padding: 0.5em;
+}
+
+#aresta-color-picker {
+    width: 150px;
+    margin-bottom: 0.5em;
+}
+
+#poligono-color-picker {
+    width: 150px;
+}
+
+/* Lista de polígonos salvos */
+#options-poligonos-salvos-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0.5em;
+}
+
+select {
+    width: 150px;
+}
+
+#options-poligonos-salvos-div label {
+    margin-bottom: 0.5em;
+}
