@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/d9326771-0b27-4064-9065-377a012e9456)
 ***
 Implementation of software developed using HTML, CSS and Javascript technologies to draw and paint the internal region of polygons (fillpoly algorithm).
 ***
